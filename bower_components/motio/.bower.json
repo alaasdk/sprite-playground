@@ -1,0 +1,15 @@
+{
+  "name": "motio",
+  "homepage": "https://github.com/darsain/motio",
+  "version": "2.2.2",
+  "_release": "2.2.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.2.2",
+    "commit": "e3eb1b8692f6f53c1b4a96c094c47d41d7e505fa"
+  },
+  "_source": "https://github.com/darsain/motio.git",
+  "_target": "^2.2.2",
+  "_originalSource": "motio",
+  "_direct": true
+}
