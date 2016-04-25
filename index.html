@@ -46,7 +46,7 @@
 
       </div>
    
-      
+      <p></p>
       <h3>
         Upload
         </h3>
@@ -59,24 +59,21 @@
 
 
       </div>
-      <p>
-        <pre>
-    {{messages goes here}}
-    </pre>
-      </p>
+     <p></p>
       <h3>
         Settings
         </h3>
+        
       <div>
         <label>
-          Width:
-          <input type="number" id="width" required value="400"  />
+          width:
+          <input type="number" id="width" required value="168"  />
           
           </label>
 
         <label>
           height:
-          <input type="number" id="height" required value="400" />
+          <input type="number" id="height" required value="80" />
           
           </label>
       </div>
@@ -85,13 +82,13 @@
       <div>
         <label>
           fps:
-          <input type="number" id="fps" required value="14"  />
+          <input type="number" id="fps" required value="27"  />
           
           </label>
 
         <label>
           frames:
-          <input type="number" id="frames" required value="0" />
+          <input type="number" id="frames" required value="27" />
           
           </label>
       </div>
@@ -101,7 +98,16 @@
         <input type="button" id="start" value=" start " />
         <input type="button" id="destroy" value=" destroy " />
       </div>
-
+<p></p>
+ <h3>
+        Log
+        </h3>
+         <p>
+        <pre id="logger">
+    {{messages goes here}}
+    </pre>
+      </p>
+      
     </section>
 
 
@@ -158,6 +164,8 @@
   <script src="bower_components/jquery-2.2.3.min/index.js"></script>
   <script src="javascripts/scale.fix.js"></script>
   <script src="bower_components/motio/dist/motio.js"></script>
+  <script src="javascripts/app.js"></script>
+  
 
 </body>
 
